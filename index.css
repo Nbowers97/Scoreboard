@@ -1,0 +1,72 @@
+body {
+    margin: 25px auto;
+    max-width: 575px;
+    height: 385px;
+    background: #1B244A;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.score-text{
+    line-height: 36px;   
+    font-family: 'Verdana';
+    font-style: normal;
+    font-size: 40px;
+    font-weight: 700;
+    text-align: center;
+    color: #EEEEEE;
+}
+
+#score{
+    width: 155px;
+    height: 120px;
+    background: #080001;
+    border-radius: 5px;
+    color: red;
+    text-align: center;
+    vertical-align: center;  
+}
+
+#home-score, #guest-score{
+    font-size: 90px;
+    line-height: 126.67px;
+    font-style: regular;
+    font-family: 'Cursed Timer ULiL';
+    color: #F94F6D;
+}
+
+.buttons{
+    font-size: 18px;
+    line-height: 27.81px;
+    text-align: center;
+    vertical-align: top;
+    padding-top: 26px;
+}
+
+.btn-add1,.btn-add2,.btn-add3{
+    border: 2px solid #9AABD8;
+    border-radius: 5px;
+    background: none;
+    color: #9AABD8;
+    padding: 9px 8px 10.23px 7px;
+    width: 45px;
+    height: 45px;
+    font-family: 'Cursed Timer ULiL';
+}
+
+#new-game{
+    border: 2px solid #080001;
+    border-radius: 5px;
+    background: gold;
+    color: #080001;
+    width:125px;
+    height: 50px;
+    font-family: 'Verdana';
+    font-size: 18px;
+    margin: 10px;
+}
